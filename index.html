@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+   <meta charset="UTF-8">
+	 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="nav">
+        <nav class="nav__panel">
+          <img src="img/mint.png">
+          <ul class="nav__menu">
+            <li class="nav__tabs nav__tabs--border nav__tabs--bold">
+              <a class="links links--normal" href="">Sign up</a></li>
+            <li class="nav__tabs">
+              <a class="links links--normal" href="#">Log in</a>
+            </li>
+          </ul>
+
+        </nav>
+      </header>
+      <main class="content">
+        <section class="forms">
+          <h1 class="forms__heading">See all your finances in one place & create a budget
+          </h1>
+          <form action="#" method="POST">
+            <fieldset class="forms__fieldset">
+              <label class="forms__label">Your email</label>
+              <input class="forms__email" type="email" name="email">
+            </fieldset>
+            <fieldset class="forms__fieldset">
+              <label class="forms__label">Confirm email</label>
+              <input class="forms__email" type="email" name="email">
+            </fieldset>
+            <fieldset class="forms__fieldset">
+              <label class="forms__label">Password</label>
+              <input class="forms__email" type="password" name="password">
+            </fieldset>
+            <fieldset class="forms__fieldset">
+              <label class="forms__label">Confirm password</label>
+              <input class="forms__email" type="password" name="password">
+            </fieldset>
+            <fieldset class="forms__checkboxwrapper">
+              <label class="forms__checkbox" for="remember">
+                <input class="forms__remember" id="remember" type="checkbox" name="remember">
+              </label>
+              <label class="forms__remembertitle" for="remember">Remember me</label>
+            </fieldset>
+            
+              <label class="forms__signuplabel" for="signup">
+              <span class="forms__lock">xd</span>
+                SIGN UP
+              </label>
+              <button class="forms__signup" id="signup" name="signup">
+              </button> 
+          </form>
+          <footer>
+            <h6 class="forms__footer">
+            By clicking Sign Up you agree to our <a class="links links--blue" href="#">Terms of Use</a> and <a class="links links--blue" href="#">Privacy Statement</a>
+            </h6>
+
+          </footer>
+        </section>
+
+        <aside class="sidebarwrapper">
+          <article class="sidebar">
+            <h2 class="sidebar__title">Why you'll love it</h2>
+            <ul class="sidebar__list">
+              <li class="sidebar__tabs">See all your accounts in one place
+              </li>
+              <li class="sidebar__tabs">Set a budget and pay down your debt
+              </li>
+              <li class="sidebar__tabs">Find the best ways to grow your money
+              </li>
+              <li class="sidebar__tabs">Stay <a class="links--brown" href="">safe and secure</a>
+              </li>
+            </ul>
+          </article>
+        </aside>
+      </main>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

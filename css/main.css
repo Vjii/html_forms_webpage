@@ -1,0 +1,244 @@
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+
+
+/* =============== BLOCK - WRAPPER =============== */
+
+.wrapper {
+	width: 800px;
+	min-height: 1000px;
+	margin: 0 auto;
+}
+
+
+
+/* =============== BLOCK - LINKS =============== */
+
+.links {
+	text-decoration: none;
+}
+
+
+
+/* =============== MODIFIERS - LINKS =============== */
+
+.links--normal {
+	color: #333;
+}
+
+.links--underscore {
+	text-decoration: underline;
+}
+
+.links--blue {
+	color: #45cae6;
+}
+
+.links--brown {
+	color: #666;
+}
+
+
+
+/* =============== BLOCK - CONTENT =============== */
+
+.content {
+	margin: 0 auto;
+	padding: 43px 50px 50px 50px;
+	width: 700px;
+	min-height: 625px;
+	box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* =============== BLOCK - NAVIGATION =============== */
+
+.nav {
+	margin-bottom: 5px;
+	height: 96px;
+
+}
+
+/* =============== ELEMENTS - NAVIGATION =============== */
+
+.nav__panel {
+	padding-top: 52px;
+}
+
+.nav__menu {
+	height: 18px;
+	float: right;
+}
+
+.nav__tabs {
+	margin: 5px 0;
+	padding: 0 10px;
+	display: inline-block;
+	font-size: 15px;
+}
+
+/* =============== MODIFIERS - NAVIGATION =============== */
+
+.nav__tabs--border {
+	border-right: 1px solid #ccc;
+}
+
+.nav__tabs--bold {
+	font-weight: bold;
+}
+
+
+
+/* =============== BLOCK - FORMS =============== */
+
+.forms {
+	width: 398px;
+	height: 622px;
+
+	float: left;
+}
+
+/* =============== ELEMENT - FORMS =============== */
+
+.forms__fieldset {
+	height: 96px;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.forms__heading {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.forms__label {
+	margin-bottom: 10px;
+	padding-bottom: 6px;
+	height: 21px;
+	display: block;
+	font-size: 14px;
+}
+
+.forms__email {
+	padding: 0 8px;
+	width: 304px;
+	height: 32px;
+	line-height: 18px;
+	border-radius: 3px;
+	border: 1px solid #d8d8d8;
+}
+
+.forms__checkbox {
+	margin-top:;
+	width: 17px;
+	height: 12px;
+	padding-bottom: 5px;
+	display: inline-block;
+	background-color: #fff;
+	border: 1px solid #d8d8d8;
+	border-radius: 3px;
+}
+
+.forms__remember {
+	display: none;
+}
+
+.forms__remembertitle {
+	padding-left: 5px;
+	margin: 0;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+.forms__checkboxwrapper {
+	padding: 0 0 10px 0;
+	margin: 0;
+	height: 31px;
+	border: none;
+}
+
+.forms__signuplabel {
+	margin: 0;
+	padding: 0 20px;
+	min-width: 73px;
+	height: 34px;
+	display: inline-block;
+	line-height: 34px;
+	background-color: #45cae6;
+	border: none;
+	border-radius: 3px;
+	font-size: 13.5px;
+	color: #fff;
+}
+
+.forms__signup {
+	visibility: hidden;
+	min-width: 73px;
+	line-height: 34px;
+	font-size: 13.5px;
+}
+
+.forms__lock {
+	background-image: url("../img/lock.png");
+	background-size: cover;
+	filter: brightness(100%);
+	margin: 1px 5px 0 0;
+	width: 14px;
+	height: 16.5px;
+	display: inline-block;
+	vertical-align: text-top;
+	text-indent: 10000px;
+}
+
+.forms__footer {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+
+
+/* =============== BLOCK - SIDEBARWRAPPER =============== */
+
+.sidebarwrapper {
+	margin-right: -25px;
+	width: 222px;
+	float: right;
+	border-left: 1px solid #ddd;
+}
+
+
+
+/* =============== BLOCK - SIDEBAR =============== */
+
+.sidebar {
+	margin-left: 25px;
+	padding: 21px 17px 19px 40px;
+	width: 140px;
+	height: 580px;
+	background-color: #f5f5f5;
+}
+
+/* =============== ELEMENTS - SIDEBAR =============== */
+
+.sidebar__title {
+	margin: 15.5px 0 15.5px -15px;
+	padding: 0;
+	font-size: 19px;
+	font-weight: 400;
+	color: #666;
+}
+
+.sidebar__list {
+	padding: 0;
+}
+
+.sidebar__tabs {
+	margin-bottom: 10px;
+	padding: 0 5px 5px 0;
+	font-size: 12px;
+	color: #666;
+}
